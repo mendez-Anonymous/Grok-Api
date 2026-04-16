@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "grok-api"
+version = "2.0.0"
+description = "A professional Grok AI wrapper by Josué Méndez"
+author = "Josué Méndez <umjosue0891@gmail.com>"
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+fastapi = "*"
+uvicorn = "*"
+curl_cffi = "*"
+beautifulsoup4 = "*"
+pydantic = "*"
+colorama = "*"
+coincurve = "*"
+requests = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
